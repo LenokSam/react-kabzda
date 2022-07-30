@@ -1,7 +1,11 @@
 import React, {useState} from 'react';
 
-const OnOff = () => {
-  let [on, setOn] = useState <boolean>(false)
+export type OnOffType={
+  // isOn:true|false
+}
+
+const OnOff: React.FC<OnOffType> = () => {
+  let [on, setOn] = useState <boolean>(true)
 
   return (
     <div className={'onOff__wrapper'}>

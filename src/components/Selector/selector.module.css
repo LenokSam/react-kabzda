@@ -1,0 +1,19 @@
+.select {
+  width: 100px;
+}
+.items {
+  border: 1px solid black;
+
+}
+.item {
+  /*position:absolute;*/
+background-color: #e7fdd8;
+}
+.title {
+  border: 1px solid black;
+  display: block;
+}
+/*два класса*/
+.select.active .items{
+  display: block;
+}
